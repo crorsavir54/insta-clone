@@ -15,6 +15,7 @@
 		D0544678261842C900DF3028 /* insta_clone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0544676261842C900DF3028 /* insta_clone.xcdatamodeld */; };
 		D0544683261842C900DF3028 /* insta_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0544682261842C900DF3028 /* insta_cloneTests.swift */; };
 		D054468E261842C900DF3028 /* insta_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D054468D261842C900DF3028 /* insta_cloneUITests.swift */; };
+		D0A468A726184CDC00C29714 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A468A626184CDC00C29714 /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D0544689261842C900DF3028 /* insta-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "insta-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D054468D261842C900DF3028 /* insta_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insta_cloneUITests.swift; sourceTree = "<group>"; };
 		D054468F261842C900DF3028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A468A626184CDC00C29714 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				D054466B261842C700DF3028 /* insta_cloneApp.swift */,
 				D054466D261842C700DF3028 /* ContentView.swift */,
+				D0A468A626184CDC00C29714 /* PostView.swift */,
 				D054466F261842C900DF3028 /* Assets.xcassets */,
 				D0544674261842C900DF3028 /* Persistence.swift */,
 				D0544679261842C900DF3028 /* Info.plist */,
@@ -268,6 +271,7 @@
 				D0544675261842C900DF3028 /* Persistence.swift in Sources */,
 				D054466E261842C700DF3028 /* ContentView.swift in Sources */,
 				D054466C261842C700DF3028 /* insta_cloneApp.swift in Sources */,
+				D0A468A726184CDC00C29714 /* PostView.swift in Sources */,
 				D0544678261842C900DF3028 /* insta_clone.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
