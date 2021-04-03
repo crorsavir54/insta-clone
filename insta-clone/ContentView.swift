@@ -11,23 +11,7 @@ import CoreData
 struct ContentView: View {
 
     var body: some View {
-        VStack{
-            HStack {
-                Text("Instaclone")
-                    .padding()
-                Image(systemName: "paperplane")
-                    .padding(.leading, 200)
-            }
-            .font(.title)
-            .frame(maxWidth: .infinity, maxHeight: 50, alignment: .leading)
-            .background(Color.white)
-            ScrollView{
-                PostView()
-                PostView()
-                PostView()
-                
-            }
-        }
+        PostView()
     }
 }
 

@@ -6,14 +6,17 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct insta_cloneApp: App {
     let persistenceController = PersistenceController.shared
-
+    init() {
+        FirebaseApp.configure()
+      }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
